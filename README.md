@@ -3,16 +3,20 @@
 ## Preparando o ambiente:
 
 1 - Instale o venv para o projeto ser executado em um ambiente isolado:
-     `pip install venv` 
+
+`pip install venv` 
 
 2 - Crie o ambiente isolado com o venv:
-    `python3 -m venv venv`
+
+ `python3 -m venv venv`
 
 3 - Habilite o ambiente islolado:
-    `source venv/bin/activate`
+
+`source venv/bin/activate`
 
 4 - Instale a biblioteca schedule:
-    `pip install schedule`
+
+`pip install schedule`
 
 ## Executando o script
 
