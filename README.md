@@ -20,6 +20,6 @@
 
 ## Executando o script
 
-Para executar o script e ser notificado de 30 em 30 minuto, execute o comando:
+Para executar o script e ser notificado de 30 em 30 minutos, execute o comando:
 
 `python3 notifica.py`
