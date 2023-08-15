@@ -4,7 +4,7 @@
 
 1 - Instale o venv para o projeto ser executado em um ambiente isolado:
 
-`pip install venv` 
+`python3 -m pip install --user virtualenv` 
 
 2 - Crie o ambiente isolado com o venv:
 
