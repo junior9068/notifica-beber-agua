@@ -1,6 +1,6 @@
 # Script Python que gera notificação no ubuntu
 
-## Preparando o ambiente:
+## Preparando o ambiente (ubuntu):
 
 1 - Instale o venv para o projeto ser executado em um ambiente isolado:
 
