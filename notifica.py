@@ -1,7 +1,8 @@
 import subprocess
 import schedule, time
 
-copo = 0
+qtd_ingerida_copos = int(input("Entre com a quantidade de copos que já ingeriu: "))
+copo = qtd_ingerida_copos
 def notificacao(mensagem):
     global copo
     copo += 1
