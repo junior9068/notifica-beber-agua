@@ -49,5 +49,12 @@ http://api.callmebot.com/whatsapp.php?phone=5561999999999&text={texto}&apikey=00
 
 ```
 
-3 - Se quiser, configure o crontab para executar o script na hora que desejar
+3 - Se quiser, configure o crontab para executar o script na hora que desejar. Exemplo para o Cron utilizando o crontab do ubuntu:
+
+```
+# m h  dom mon dow   command
+0 8 * * * /usr/bin/python3 /home/edilson/projetos/notifica-beber-agua/notifica_zap.py
+```
+
+No exemplo co cron acima, o script será executado todos os dias às 08:00 horas da manhã.
 
