@@ -14,7 +14,7 @@ def notificacao(mensagem):
     requests.get(f"http://api.callmebot.com/whatsapp.php?phone=556199574061&text={texto}&apikey=1619202")
 
 
-schedule.every(1800).seconds.do(notificacao, mensagem="")
+schedule.every(2700).seconds.do(notificacao, mensagem="")
 
 while True:
     schedule.run_pending()
